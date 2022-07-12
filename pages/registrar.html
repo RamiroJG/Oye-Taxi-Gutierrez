@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oye Taxi - Registrarse</title>
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- seccion header inicio -->
+<header class="header">
+    <div class="header__barra">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand bounce" href="/index.html">
+                <img src="/img/Logo.svg" alt="logo oye taxis">
+              </a>
+              <button class="btn-escondido" type="button" data-bs-toggle="collapse"    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nosotros " id="navbarSupportedContent">
+                <ul class="navegacion__enlace navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a href="/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/ciudades.html">Ciudades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/legal.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/contacto.html">Convertite en conductor</a>
+                  </li>
+                
+                    <li class="iniciar__sesion negro"><a  href="/pages/registrar.html">Iniciar sesion</a></li>
+                    <li class="registrate abajo"><a  href="/pages/registrar.html">Registrate</a></li>
+                </ul>
+                
+              </div>
+              
+            </div>
+
+            
+        </nav>
+        
+    </div> 
+
+    
+</header>
+<!-- seccion header final -->
+
+<!-- seccion registro inicio -->
+    
+    <main class="registro__oyetaxi">
+        <h1>Maneja con Oye Taxi</h1>
+        <form class="formulario__registro">
+            <legend>Registrate como conductor</legend>
+                
+            <div class="campo">
+                <label for="email"><b>Correo electronico</b></label>
+                <input type="email" placeholder="matias.ng@gmial.com" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="asunto"><b>Telefono</b></label>
+                <input type="tel" placeholder="+54 1123456789" name="telefono" required>
+            </div>
+
+            <div class="campo">
+                <label for="email"><b>Ciudad</b></label>
+                <input type="text" placeholder="Buenos Aires" name="ciudad" required>
+            </div>
+
+            <input class="btn__registro" type="submit" value="Registrarse" >
+            <div class="formulario__terminos">
+                <p>Al registrarse, acepta nuestros <span>Terminos de servicio</span> y <span>Politica de privacidad</span></p>
+            </div>
+        </form>
+    </main>
+
+
+
+<!-- seccion registro final -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
