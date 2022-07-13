@@ -963,7 +963,7 @@ ul li{
 
 /* REGISTRO FINAL */
 
-/* Animaciones */
+/** Animaciones **/
 .imagen__animacion{
     transition-property: transform;
     transition-duration: 300ms;
