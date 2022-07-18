@@ -723,29 +723,7 @@ ul li{
     border-radius: 3px;
 }
 
-.region{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: stretch;
-    padding: 7rem;
-}
-@media(max-width: 991px){
-    .region{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media(max-width: 480px){
-    .region{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
-
-.paises__contenedor h3{
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 0;
-}
 .pais{
     color: #818391;
     margin-bottom: 0;
