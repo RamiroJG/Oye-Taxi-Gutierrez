@@ -7,6 +7,7 @@
     <title>Oye Taxi</title>
     
     <!-- estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -20,76 +21,52 @@
 </head>
 <body>
 <!-- seccion header inicio -->
-<header>
-    <div class="header__barra">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="/img/Logo.svg" alt="">
-              </a>
-              <button class="btn-escondido" type="button" data-bs-toggle="collapse"    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navegacion__enlace navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#">Ciudades</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#">Convertite en conductor</a>
-                  </li>
-                
-                    <li class="iniciar__sesion"><a  href="/pages/registrar.html">Iniciar sesion</a></li>
-                    <li class="registrate"><a  href="/pages/registrar.html">Registrate</a></li>
-                </ul>
-                
-              </div>
-              
-            </div>
-
-            
-        </nav>
-        
-    </div> 
-
-    <section class="hero">
-        <div class="hero__grid">
-            <div class="hero__texto">
-                <p class="hero__negro">
-                    Siempre tenemos presente la seguridad, vayas a donde vayas.
-                    
-                </p>
-                <p class="hero__naranja">
-                    La manera rapida y asequible de viajar, empieza tu viaje ahora descargando nuestra app
-                </p>
-            </div>
-            
-            <div class="hero__logos">
-                <img src="../img/app-store.png" alt="app store logo">
-                <img src="../img/google-play.png" alt="google play logo">
-            </div>
+    <header class="food">
+        <div class="food_title">
+            <a class="text-decoration-none" href="../index.html">
+                <h1 class=""><span>Oye</span> Food!</h1>
+            </a>
             
         </div>
-    </section>
-</header>
-
-
+        <div class="food_logos">
+           <img src="../img/app-store.png" alt="app store logo">
+            <img src="../img/google-play.png" alt="google play logo"> 
+        </div>
+        
+        <div class="lata">
+            <h2>Encuentra y pide comida de tu <span>restaurante favorito</span></h2>
+        </div>
+    </header>
 <!-- seccion header final -->
 
 
 <!-- seccion main inicio -->
 
-<main class="contenedor">
-    <h1>Titulo aqui</h1>
+<main class="contenedor separacion">
+    <h2 class="trabajo_title text-center fw-bold mb-5">Trabaja con nosotros y mejora tu futuro</h2>
+    <div class="grid_trabajo">
+        <div class="row">
+
+            <div class="col-lg-4">
+                
+                <img class="imagen__food" src="../img/trabaja_1.png" alt="imagen trabajo">
+                <p class="fw-bold">Gana dinero extra como delivery</p>
+            </div>
+
+            <div class="col-lg-4">
+                <img class="imagen__food" src="../img/trabaja_2.png" alt="imagen trabajo">
+                <p class="fw-bold">Registra tu restaurante</p>
+            </div>
+
+            <div class="col-lg-4">
+                <img class="imagen__food" src="../img/trabaja_3.png" alt="imagen trabajo">
+                <p class="fw-bold">Unete al equipo de <span>Oye</span> Food</p>
+            </div>
+
+        </div>
+    </div>
+    
+    
 </main>
 
 
