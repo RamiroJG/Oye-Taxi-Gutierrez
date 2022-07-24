@@ -1,0 +1,61 @@
+.funciona {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .funciona {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+.funciona h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .funciona h3 {
+    font-size: 4.8rem;
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+}
+
+.funciona__grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .funciona__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.funciona__img {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .funciona__img {
+    text-align: center;
+  }
+}
+.funciona__img img {
+  width: 7rem;
+}
+
+.funciona__texto p {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .funciona__texto p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

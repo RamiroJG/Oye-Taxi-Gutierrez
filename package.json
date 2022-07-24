@@ -1,0 +1,23 @@
+{
+  "name": "taxi-service---ramiro-gutierrez",
+  "version": "1.0.0",
+  "description": "Servicio de transporte",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiroJG/Oye-Taxi-Gutierrez.git"
+  },
+  "author": "Ramiro Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamiroJG/Oye-Taxi-Gutierrez/issues"
+  },
+  "homepage": "https://github.com/RamiroJG/Oye-Taxi-Gutierrez#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.0"
+  }
+}
