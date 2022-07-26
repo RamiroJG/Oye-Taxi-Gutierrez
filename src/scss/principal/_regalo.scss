@@ -1,0 +1,12 @@
+@use '../base/custom' as m;
+
+.regalo h1{
+    font-size: 4rem;
+}
+.regalo span{
+    color: #FF8400;
+}
+.regalo__texto{
+    line-height: 1.2;
+    font-size: 3rem;
+}

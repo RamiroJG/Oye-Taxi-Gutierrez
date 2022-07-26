@@ -1,0 +1,51 @@
+@use '../base/custom' as m;
+
+/* LEGAL INICIO */
+.legal{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.legal__titulo h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+
+    @media(min-width: m.$alto){
+        font-size: 4rem;
+    }
+}
+.legal__titulo p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+
+    @media(min-width: m.$alto){
+        font-size: 2rem;
+    }
+}
+.soporte{
+    color: m.$verde;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+    @media(min-width: m.$alto){
+        font-size: 2rem;
+    }
+}
+.legal__info h3{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    
+    span{
+        color: m.$verde;
+        cursor: pointer;
+        font-size: 1.2rem;
+
+        @media(min-width: m.$alto){
+            font-size: 2rem;
+        }
+    }
+}
+/* LEGAL FINAL */

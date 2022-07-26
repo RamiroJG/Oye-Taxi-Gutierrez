@@ -1,0 +1,33 @@
+@use '../base/custom' as m;
+
+.footer{
+    padding-top: 7rem;
+
+    img{
+        margin-bottom: 2rem;
+    }
+    &__widget{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        @media(min-width: m.$medio){
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+.footer__box h3{
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.footer__enlace{
+    display: flex;
+    flex-direction: column;
+    
+    a{
+        color: m.$negro;
+        text-decoration: none;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+}

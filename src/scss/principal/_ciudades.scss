@@ -1,0 +1,60 @@
+@use '../base/custom' as m;
+
+/* PAGINA CIUDADES INICIO */
+.ciudades{
+    height: 46.8rem;
+    background-color: m.$verde;
+    background-image: url(../../../img/ciudades.png);
+    background-repeat: no-repeat;
+    background-position: 100% -8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media(min-width: m.$alto){
+        background-position: 95rem -8rem;
+    }
+}
+
+.ciudades__busqueda h2{
+    font-size: 4rem;
+    color: m.$negro;
+    margin-bottom: 0;
+
+    @media(min-width: m.$alto){
+        color: m.$blanco;
+    }
+}
+.ciudades__busqueda p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: m.$negro;
+
+    @media(min-width: m.$alto){
+        color: m.$blanco;
+    }
+}
+
+.ciudades__busqueda input{
+    padding: 1.2rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 3px;
+}
+.pais{
+    color: m.$gris;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.regiones__verde p{
+    font-weight: 700;
+    color: m.$verde;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.regiones__verde p:last-child{
+    margin-bottom: 2rem;
+}
+/* PAGINA CIUDADES FINAL */

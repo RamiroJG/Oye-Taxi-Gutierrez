@@ -1,0 +1,81 @@
+@use '../base/custom' as m;
+
+/* FORMULARIO INICIO */
+.formulario {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.formulario__contacto h2{
+    padding-top: 7rem;
+    text-align: center;
+}
+.formulario legend {
+    background-color: m.$amarillo_oscuro;
+    width: 100%;
+    text-align: center;
+    color: m.$blanco;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin: 0 auto 4rem auto;
+
+    @media(min-width: m.$chico){
+        width: 100%;
+        margin: 0 auto 4rem auto;
+    }
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+
+    @media(min-width: m.$chico){
+        flex-direction: row;
+    }
+
+    label{
+        font-size: 1.6rem;
+        flex-basis: 0;
+
+        @media(min-width: m.$chico){
+            flex-basis: 10rem;
+        }
+    }
+}
+.campo input:not([type="radio"]),
+.campo textarea,
+.campo select  {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.btn-campo{
+    background-color: m.$amarillo_oscuro;
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out ;
+    text-align: center;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+
+    &:hover{
+        background-color: m.$amarillo;
+        cursor: pointer;
+        
+        
+    }
+
+}
+@media (min-width: m.$chico) { 
+    .btn {
+        width: auto;
+    }
+}
+/* FORMULARIO FINAL */

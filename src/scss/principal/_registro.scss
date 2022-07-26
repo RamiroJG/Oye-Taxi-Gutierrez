@@ -1,0 +1,52 @@
+@use '../base/custom' as m;
+
+/* REGISTRO INICIO */
+.registro__oyetaxi{
+    height: 100vh;
+    background-image: url(../../../img/registro-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20rem;
+
+    h1{
+        text-align: center;
+        color: m.$blanco;
+    }
+}
+.formulario__registro{
+    max-width: 60rem;
+    padding: 5rem;
+    border-radius: 6px;
+    margin: 0 auto;
+    background-color: m.$blanco;
+
+    legend{
+        margin: 0 auto 2rem auto;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+}
+.btn__registro {
+    background-color: m.$verde;
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.formulario__terminos p{
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+.formulario__terminos span{
+    color: m.$verde;
+}
+/* REGISTRO FINAL */
