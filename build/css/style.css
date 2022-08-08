@@ -42,7 +42,13 @@ ul li {
   font-size: 3rem;
 }
 
-
+/* MEDIAS */
+/* COLORES */
+/* MAP */
+/* @import '../../node_modules/bootstrap/scss/bootstrap.scss'; */
+/* MIXINS */
+/* EXTEND */
+/* HEADER INICIO */
 .header__barra {
   background-color: #000;
   height: 8rem;
@@ -65,7 +71,7 @@ ul li {
   text-decoration: none;
 }
 
-.nav-item {
+.nav-item, .nav-item:hover {
   font-size: 1.5rem;
 }
 .nav-item:hover {

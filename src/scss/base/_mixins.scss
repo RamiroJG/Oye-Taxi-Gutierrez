@@ -1,0 +1,8 @@
+@use './custom' as m;
+
+/* MIXINS */
+@mixin tablet {
+    @media(min-width: m.$medio){
+        @content;
+    }
+}

@@ -1,4 +1,8 @@
 @use '../base/custom' as m;
+@use '../base/mixins' as v;
+
+/* EXTEND */
+
 
 /* HEADER INICIO */
 .header__barra{
@@ -25,6 +29,7 @@
     font-size: 1.5rem;
 
     &:hover{
+        @extend .nav-item;
         color: m.$blanco;
     }
 }
@@ -43,7 +48,7 @@
 }
 .registrate{
     padding: 1rem 2rem 1rem 2rem;
-    background-color: m.$amarillo_oscuro;
+    background-color: map-get(m.$color, primary );
     border-radius: .6rem;
     font-size: 1.5rem;
     font-weight: 700;
@@ -157,7 +162,7 @@
     grid-template-columns: repeat(1, 1fr);
     padding-top: 7rem;
 
-    @media(min-width: m.$medio){
+    @include v.tablet{
         grid-template-columns: repeat(3, 1fr);
         align-items: baseline;
         column-gap: 2rem;
@@ -199,7 +204,7 @@
         align-items: center;
         height: 100%;
 
-        @media(min-width: m.$medio){
+        @include v.tablet{
             background-image: url(../../../img/fondo_verde.png);
             display: flex;
             flex-direction: row;
@@ -217,7 +222,7 @@
     padding-top: 4rem;
     margin-bottom: 0;
 
-    @media(min-width: m.$medio){
+    @include v.tablet{
         color: m.$gris_oscuro;
         font-size: 4.8rem;
         width: 70%;
@@ -231,7 +236,7 @@
     text-align: center;
     margin-top: 0;
 
-    @media(min-width: m.$medio){
+    @include v.tablet{
         font-size: 1.8rem;
         color: m.$gris;
         text-align: left;
@@ -243,7 +248,7 @@
         height: 35rem;
         margin-bottom: 0;
 
-        @media(min-width: m.$medio){
+        @include v.tablet{
             height: 60rem;
             margin-bottom: 10rem;
         }
@@ -258,7 +263,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 
-    @media (min-width: m.$medio){
+    @include v.tablet{
         padding-top: 7rem;
         padding-bottom: 7rem;
     }
@@ -268,7 +273,7 @@
         margin-bottom: 1.5rem;
         text-align: center;
 
-        @media (min-width: m.$medio){
+        @include v.tablet{
             font-size: 4.8rem;
             margin-bottom: 8rem;
             text-align: center;
@@ -280,7 +285,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 
-    @media (min-width: m.$medio){
+    @include v.tablet{
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -288,7 +293,7 @@
 .funciona__img{
     text-align: center;
 
-    @media (min-width: m.$medio){
+    @include v.tablet{
         text-align: center;
     }
 
@@ -303,7 +308,7 @@
     margin-top: .5rem;
     text-align: center;
 
-    @media(min-width: m.$medio){
+    @include v.tablet{
         font-size: 2.5rem;
         font-weight: 700;
         margin-top: .5rem;
@@ -321,7 +326,7 @@
         color: m.$blanco;
         text-align: center;
 
-        @media(min-width: m.$medio){
+        @include v.tablet{
             margin-top: 0;
             font-size: 5rem;
             color: #fff;
@@ -334,7 +339,7 @@
         width: 50%;
         line-height: 1.3;
 
-        @media(min-width: m.$medio){
+        @include v.tablet{
             text-align: center;
             color: #fff;
             font-size: 2rem;
@@ -352,7 +357,7 @@
     img{
         width: 15rem;
 
-        @media(min-width: m.$medio){
+        @include v.tablet{
             width: 20rem;
         }
     }
